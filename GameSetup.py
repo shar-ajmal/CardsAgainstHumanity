@@ -16,8 +16,8 @@ def gameSetup(prompt_cards, response_cards):
     pressEnter()
 
     #select the number of players
-    print("How many people would you like to play. Minimum is 3, Maximum is 5")
-    num_players = inputInRange(3,5)
+    print("How many people would you like to play. Minimum is 3, Maximum is 10")
+    num_players = inputInRange(3,10)
     print(str(num_players) + " people are playing")
 
     #select how many points are needed
