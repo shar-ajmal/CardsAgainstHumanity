@@ -57,7 +57,6 @@ class Game(object):
         print(self.card_czar.getName() + " selected the prompt card\n")
         self.displayPromptCard()
         pressEnter()
-        print("\n\n")
 
     #prints prompt card
     def displayPromptCard(self):
@@ -70,6 +69,9 @@ class Game(object):
         for i in range(0, len(self.players) - 1):
             #get next player
             player = self.rotatePlayer(i)
+            print(player.getName() + "'s response selection is next")
+            pressEnter()
+            clearTerminal()
             print(player.getName() + "'s Response Selection\n")
             self.displayPromptCard()
             player_deck = player.getResponseDeck()
@@ -78,12 +80,10 @@ class Game(object):
             card_index = self.askPlayerInput(player_deck)
             player_card = player_deck[card_index]
             print("You've selected " + player_card + "\n")
-            pressEnter()
-            clearTerminal()
-            print("\n\n\n")
             playerResponses.append({'player': player, 'response': player_card})
             #player picks up a new card from the response deck
             self.pickUpNewCard(player, card_index)
+        clearTerminal()
         return playerResponses
 
     #selects the next player for their responses
