@@ -69,9 +69,9 @@ class Game(object):
         for i in range(0, len(self.players) - 1):
             #get next player
             player = self.rotatePlayer(i)
+            clearTerminal()
             print(player.getName() + "'s response selection is next")
             pressEnter()
-            clearTerminal()
             print(player.getName() + "'s Response Selection\n")
             self.displayPromptCard()
             player_deck = player.getResponseDeck()
@@ -83,7 +83,10 @@ class Game(object):
             playerResponses.append({'player': player, 'response': player_card})
             #player picks up a new card from the response deck
             self.pickUpNewCard(player, card_index)
+            pressEnter()
         clearTerminal()
+        print(self.card_czar.getName() + ", the Card Czar will now choose his favorite card")
+        pressEnter()
         return playerResponses
 
     #selects the next player for their responses
