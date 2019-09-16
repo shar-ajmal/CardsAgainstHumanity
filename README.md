@@ -2,7 +2,7 @@
 
 ## About Cards Against Humanity
 
-*Note: This is a party game can get pretty crude/offensive. However, it’s a lot fun.*
+*Note: This is a party game that can get pretty crude/offensive. However, it’s a lot fun.*
 
 Cards Against Humanity is a card Mad Libs based party game. Every person starts off with a
 deck of 5 response cards where each card has a word or a phrase(ie: “natural selection”, “The
