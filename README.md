@@ -57,9 +57,12 @@ on the terminal.
 ## Game Steps
 The terminal will ask you how many players you want to add, how many points you want to play
 till, and the names of the players.
+
 The game will start by displaying the scoreboard and selecting the Card Czar by stating “Card
 Czar Rotation”. A player will be listed as the Card Czar and it will show the prompt sentence for
 the round.
+<img width="650" alt="Screen Shot 2019-09-15 at 6 37 40 PM" src="https://user-images.githubusercontent.com/22531966/64938616-627f5100-d813-11e9-9086-e21606b7d070.png">
+
 The game will indicate which player is next to select his/her response cards. That player should
 come to the terminal and hit “Enter”. The terminal will display the player’s deck of cards and
 he/she will choose a response that is fitting for the prompt. After the card is put down the player
