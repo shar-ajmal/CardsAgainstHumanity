@@ -78,6 +78,8 @@ occurs when the terminal states “Card Czar Selection”. Once he selects his f
 card, a point is given to the one who put down that card. The score is updated and a new round
 begins with a new Card Czar. This continues until someone reaches the points needed to win.
 
+<img width="656" alt="Screen Shot 2019-09-15 at 11 45 53 PM" src="https://user-images.githubusercontent.com/22531966/64938817-f3562c80-d813-11e9-9b6c-49f7c7700809.png">
+
 ## Error Checking
 
 I wrote a method to check every user input and see if it was a number and if it was in
