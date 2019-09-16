@@ -61,13 +61,18 @@ till, and the names of the players.
 The game will start by displaying the scoreboard and selecting the Card Czar by stating “Card
 Czar Rotation”. A player will be listed as the Card Czar and it will show the prompt sentence for
 the round.
+
 <img width="650" alt="Screen Shot 2019-09-15 at 6 37 40 PM" src="https://user-images.githubusercontent.com/22531966/64938616-627f5100-d813-11e9-9086-e21606b7d070.png">
 
 The game will indicate which player is next to select his/her response cards. That player should
 come to the terminal and hit “Enter”. The terminal will display the player’s deck of cards and
 he/she will choose a response that is fitting for the prompt. After the card is put down the player
 automatically picks up a new random card from the response card deck. The terminal will state
-which player is up next. This continues till all the players have put down their cards.
+which player is up next. 
+
+<img width="651" alt="Screen Shot 2019-09-15 at 6 37 54 PM" src="https://user-images.githubusercontent.com/22531966/64938737-bc801680-d813-11e9-853a-b075b7ea68b9.png">
+
+This continues till all the players have put down their cards.
 The Card Czar then decides which response card that was put down is his favorite. This step
 occurs when the terminal states “Card Czar Selection”. Once he selects his favorite response
 card, a point is given to the one who put down that card. The score is updated and a new round
